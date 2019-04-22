@@ -279,7 +279,7 @@ Module.register("MMM-iHaveBeenThere",{
 		}, MyMapPaintDelay_ms);
 		
 		//add legend to map
-		MyMap.addLegend(this.createLegend());
+		//MyMap.addLegend(this.createLegend());
 		//add title
 		MyMap.addTitle(this.config.title, 25, this.config.colorTitleFont, 1.0, true);
 	},
