@@ -55,7 +55,8 @@ Module.register("MMM-iHaveBeenThere",{
 		colorPlaneLine:			"#FFFFFF",
 		colorLegendBorder:		"#FFFFFF",
 		colorLegendFont:		"#FFFFFF",
-		colorTitleFont:			"#FFFFFF"
+		colorTitleFont:			"#FFFFFF",
+		colorYellow:			"#FFFF00"
 	},
 	
 	// Define required scripts.
@@ -161,8 +162,8 @@ Module.register("MMM-iHaveBeenThere",{
 				svgPath: this.targetSVG,
 	            title: this.config.home_desc,
 	            //label: "zu Hause",
-	            color: this.config.colorTargetPoints,
-	            labelColor: this.config.colorTargetPoints,
+	            color: this.config.colorYellow,
+	            labelColor: this.config.colorYellow,
 	            latitude: this.config.home_lat,
 	            longitude: this.config.home_lon
 		};
